@@ -1,0 +1,748 @@
+header {
+    background-color: #6ad7d4;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+header {
+    background-color: #6ad7d4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60px;
+    background-color: #014d81;
+    width: 50%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.header-bottom {
+    width: 70%;
+    height: 200px;
+    background-color: #ffe6c7;
+    margin: 200px auto;
+    position: relative;
+    border-radius: 0 0 25px 25px;
+}
+
+.header-bottom .text1 {
+    z-index: 1;
+    width: 65%;
+    position: absolute;
+    bottom: 90%;
+}
+
+.header-bottom .kid1 {
+    width: 45%;
+    height: 220px;
+    position: absolute;
+    bottom: 75%;
+    left: 60%;
+}
+
+.header-bottom h5 {
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    color: #ae4c42;
+    font-weight: bold;
+}
+
+.ruler {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 35%;
+}
+
+.alert1 {
+    position: absolute;
+    width: 70%;
+    height: 220px;
+    left: 15%;
+    top: 45%;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.alert1 h4 {
+    text-align: center;
+    color: #014d81;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.alert1 p {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.fa-star {
+    color: #ffdc63;
+}
+
+button {
+    float: left;
+    width: 150px;
+    height: 55px;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn1 {
+    background-color: #014d81;
+    margin-right: 10px;
+}
+
+.btn2 {
+    background-color: #ff5461;
+}
+
+
+/* LAYOUT 1 */
+
+.layout1-top {
+    position: relative;
+    width: 100%;
+    min-height: 160px;
+}
+
+.layout1-top img {
+    position: absolute;
+    display: block;
+    width: 70%;
+    left: 15%;
+    top: -20%
+}
+
+.layout1-top p {
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    color: #e975a9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.big-boxs {
+    margin: 15px 0;
+    width: 70%;
+}
+
+.layout1-mid .boxs {
+    margin: 10px auto;
+}
+
+.layout1-mid .title {
+    background-color: #014d81;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.content {
+    border: 2px solid #014d81;
+    border-radius: 0 0 5px 5px;
+}
+
+.content p {
+    font-size: 13px;
+    margin-left: 8%;
+}
+
+.content i {
+    font-size: 8px;
+}
+
+.layout1-bottom .frames {
+    width: 70%;
+    position: relative;
+}
+
+.frames .noname1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.frames .professor {
+    position: absolute;
+    right: 10%;
+    bottom: 100%;
+    width: 25%;
+}
+
+
+/* END LAYOUT 1 */
+
+
+/* LAYOUT 2 */
+
+.layout2 {
+    margin: 20px auto;
+    background-color: #ffe6c7;
+}
+
+.layout2-top,
+.layout2-mid {
+    padding-top: 100px;
+    width: 70%;
+    position: relative;
+}
+
+.layout2-top h6 {
+    color: #339820;
+    padding-left: 25%;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.kid2 {
+    position: absolute;
+    width: 20%;
+    bottom: -10%;
+}
+
+.banner-text {
+    background-color: #f06b6f;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px 0 20px 25%;
+    letter-spacing: 1px;
+}
+
+.borders .content1 {
+    width: 80%;
+    background-color: #fff5ec;
+    position: relative;
+}
+
+.first,
+.second,
+.third {
+    position: relative;
+    height: 200px;
+    background-color: #fff5ec;
+}
+
+.first p {
+    position: absolute;
+    bottom: 90%;
+    left: 0;
+    color: #014d81;
+    font-weight: bolder;
+}
+
+.sticker1 {
+    position: absolute;
+    width: 140px;
+    right: 60%;
+    top: 10%;
+}
+
+.second,
+.third p {
+    font-size: 13px;
+    padding: 10px 5px;
+}
+
+.second h6 {
+    position: absolute;
+    bottom: 100%;
+    left: 25%;
+    color: #e975a9;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.second h6:after {
+    content: "";
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    background-color: #e975a9;
+    display: inline-block
+}
+
+.third h6 {
+    position: absolute;
+    bottom: 100%;
+    left: 25%;
+    color: #8ec54d;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.third h6:after {
+    content: "";
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    background-color: #8ec54d;
+    display: inline-block
+}
+
+.hide {
+    display: none;
+}
+
+.second button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    z-index: 10;
+}
+
+.for-child {
+    width: 40%;
+    background-color: cadetblue;
+}
+
+.for-child h6 {
+    color: #ff5461;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+.for-child h6:after {
+    border-bottom: 8px solid green;
+    display: block;
+    content: " ";
+    width: 20px;
+    position: relative;
+    left: 0px;
+}
+
+
+/* END CONTENT 2 */
+
+
+/* LAYOUT 3 */
+
+.layout3 {
+    background-color: #6ad7d4;
+    min-height: 600px;
+}
+
+.layout3-top {
+    width: 70%;
+    position: relative;
+}
+
+.layout3-top img {
+    width: 20%;
+    position: absolute;
+    margin: 10px 0 5px 10px;
+}
+
+.layout3-top h1 {
+    display: block;
+    margin-left: 25%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 25px;
+    margin-top: -20px;
+}
+
+.content-header {
+    background-color: #055ea8;
+    width: 70%;
+    height: 70px;
+    border-radius: 25px 25px 0 0;
+    margin-top: 20px
+}
+
+.btn {
+    background-color: #055ea8;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 24%;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.content-mid {
+    width: 70%;
+    background-color: white;
+}
+
+.teacher {
+    margin: 30px 0 15px 10px;
+    width: 100%;
+}
+
+.items {
+    position: relative;
+    border: 1px solid #055ea8;
+    width: 90%;
+    margin: 15px 0 15px 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mark {
+    width: 35px;
+    position: absolute;
+    bottom: 88%;
+    left: 35%;
+}
+
+.items h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+/* END LAYOUT 3 */
+
+
+/* LAYOUT 4 */
+
+.layout4 {
+    background-color: #014d81;
+}
+
+.layout4 h1 {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+.layout4 .content {
+    width: 70%;
+}
+
+.content-left {
+    width: 80%;
+    height: 120px;
+    margin: 180px 0 50px 0;
+    margin-left: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.content-left h6 {
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.content-left h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.content-left p {
+    color: white;
+}
+
+.gift-top {
+    position: absolute;
+    width: 90%;
+    left: 0;
+    bottom: 150px;
+}
+
+.gift-bottom {
+    position: absolute;
+    width: 50%;
+    top: 75%;
+    left: 10%;
+    z-index: 1;
+}
+
+.content-right {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content-right h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.content-right input {
+    width: 80%;
+    border-radius: 10px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+.content-right button {
+    margin-left: 25%;
+}
+
+
+/* END LAYOUT 4 */
+
+
+/* LAYOUT 5 */
+
+.layout5 h1 {
+    margin: 30px 0;
+    color: #014d81;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.layout5-top {
+    width: 70%;
+    height: 360px;
+    position: relative;
+}
+
+.cpt-screen {
+    width: 70%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.web {
+    width: 65%;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    display: block;
+}
+
+.underline {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0%;
+}
+
+.verticalline {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    height: 80%;
+    z-index: 1;
+    width: 3px;
+}
+
+.left-side {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    bottom: 0;
+}
+
+.left-side p {
+    padding-left: 20px;
+}
+
+.line1 {
+    margin-top: 80px;
+}
+
+.layout5-mid {
+    background-color: #f06b6f;
+    z-index: 1000;
+    position: relative;
+    border-radius: 25px 25px 0 0;
+}
+
+.main-content h1 {
+    margin: 0 0;
+    padding: 30px 0 0;
+    color: white;
+    font-weight: bold;
+}
+
+.main-content h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.item {
+    width: 70%;
+}
+
+.item-child {
+    width: 33%;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.item-child p {
+    padding: 40px 0 0;
+}
+
+.luotxem,
+.giaibac {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    bottom: 80%;
+}
+
+.so1 {
+    width: 50%;
+    position: absolute;
+    bottom: 75%;
+    left: 25%;
+}
+
+.cup {
+    position: absolute;
+    width: 80%;
+    right: 80%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.layout5-bottom {
+    background-image: url("../images/bg-newspaper.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.title-layout5-bottom {
+    width: 60%;
+    background-color: #014d81;
+    border-radius: 5px 5px 0 0;
+}
+
+.layout5-bottom h1 {
+    margin: 0 0;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.publishers {
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+}
+
+.publish {
+    width: 70%;
+    padding: 25px 0;
+}
+
+.borders {
+    width: 70%;
+    padding: 100px 0;
+}
+
+.kid3 {
+    position: absolute;
+    width: 20%;
+    bottom: 95%;
+    right: 3%;
+}
+
+
+/* END LAYOUT 5 */
+
+footer {
+    background-color: #014d81;
+    color: white;
+}
+
+footer h1 {
+    font-size: 20px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 15px;
+}

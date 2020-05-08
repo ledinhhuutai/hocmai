@@ -1,0 +1,341 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    nav {
+        width: 60%;
+    }
+    .layout1-top {
+        min-height: 140px;
+    }
+    .layout1-top p {
+        top: 60%;
+        left: 35%;
+        right: 15%;
+    }
+    .layout2-top {
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    nav {
+        width: 70%;
+    }
+    .header-bottom {
+        width: 90%;
+    }
+    .alert1 button {
+        margin-bottom: 10px;
+    }
+    .layout1-top img {
+        width: 100%;
+        left: 0;
+    }
+    .layout1-top p {
+        top: 55%;
+        left: 25%;
+    }
+    .big-boxs {
+        width: 100%;
+    }
+    .layout1-bottom .frames {
+        width: 100%;
+    }
+    .layout2-top {
+        padding-top: 80px;
+        width: 100%;
+    }
+    .layout3-top {
+        width: 100%;
+    }
+    .layout3-mid .content-header {
+        width: 100%;
+    }
+    .content-mid {
+        width: 100%;
+    }
+    .layout4 .content {
+        width: 100%;
+    }
+    .layout5-top {
+        width: 100%;
+    }
+    .item {
+        width: 100%;
+    }
+    .title-layout5-bottom {
+        width: 65%;
+    }
+    .publishers {
+        width: 85%;
+    }
+    .borders {
+        width: 100%;
+    }
+    .second button {
+        left: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    nav {
+        width: 80%;
+    }
+    .header-bottom {
+        width: 100%;
+        margin: 130px auto;
+    }
+    .header-bottom .text1 {
+        width: 100%;
+    }
+    .header-bottom .kid1 {
+        display: none;
+    }
+    .ruler {
+        left: 0;
+        width: 100%;
+    }
+    .alert1 {
+        width: 90%;
+        left: 5%;
+    }
+    .layout1-top {
+        min-height: 120px;
+    }
+    .layout1-top img {
+        width: 100%;
+        left: 0;
+    }
+    .layout1-top p {
+        top: 55%;
+        left: 25%;
+        font-size: 13px;
+    }
+    .big-boxs {
+        width: 100%;
+    }
+    .layout1-bottom .frames {
+        width: 100%;
+    }
+    .professor {
+        display: none;
+    }
+    .layout2-top {
+        padding-top: 50px;
+        width: 100%;
+    }
+    .banner-text h1 {
+        padding: 10px 0 10px 25%;
+        text-align: center;
+    }
+    .layout3-top {
+        width: 100%;
+    }
+    .layout3-mid .content-header {
+        width: 100%;
+    }
+    .layout3-mid .content-header .btn {
+        font-size: 13px;
+    }
+    .layout3-mid .content-mid {
+        width: 100%;
+    }
+    .teacher {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .content-right {
+        margin-top: 2px;
+    }
+    .layout5-top {
+        width: 100%;
+    }
+    .left-side {
+        height: 40%;
+        width: 90%;
+        left: 3%;
+    }
+    .line1 {
+        margin-top: 10px;
+    }
+    .verticalline {
+        height: 100%;
+        width: 2px;
+    }
+    .cpt-screen {
+        display: none;
+    }
+    .web {
+        top: 0;
+        width: 94%;
+        left: 3%;
+        height: 60%;
+    }
+    .item {
+        width: 100%;
+    }
+    .borders {
+        width: 100%;
+    }
+    .borders .content1 {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .first,
+    .second,
+    .third {
+        height: 150px;
+    }
+    .sticker1 {
+        right: 35%;
+        top: -20%;
+    }
+    .first p {
+        left: 45%;
+        bottom: 110%;
+    }
+    .hide {
+        display: block;
+    }
+    .second button {
+        left: 75%;
+    }
+    .kid3 {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        background: none;
+    }
+    .logo {
+        position: absolute;
+        left: 1vw;
+        top: 10px;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 0px;
+        background-color: #014d81;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        right: -100%;
+        transition: transform 0.5s ease-in;
+    }
+    .hamburger {
+        z-index: 101;
+        position: absolute;
+        top: 10px;
+        right: 0vw;
+        display: block;
+        cursor: pointer;
+        background-color: #014d81;
+        border-bottom-left-radius: 5px;
+    }
+    .nav-active {
+        z-index: 100;
+        right: 0%;
+    }
+    .layout2-top h6 {
+        padding-left: 20%;
+    }
+    .banner-text h1 {
+        padding: 10px 0 10px 20%;
+    }
+    .layout3-top h1 {
+        font-size: 20px;
+    }
+    .layout3-mid .content-header {
+        width: 100%;
+    }
+    .layout3-mid .content-header .btn {
+        font-size: 10px;
+        width: 23%;
+    }
+    .layout3-mid .content-mid {
+        width: 100%;
+    }
+    .content-right {
+        width: 100%;
+        margin-top: -10px;
+    }
+    .test {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        top: 0;
+    }
+    .item {
+        width: 100%;
+    }
+    .item-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .luotxem,
+    .giaibac {
+        bottom: 90%;
+    }
+    .so1 {
+        bottom: 85%;
+    }
+    .cup {
+        right: 0;
+        bottom: 90%;
+    }
+    .borders {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .title-layout5-bottom {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-bottom {
+        margin-top: 100px;
+        height: 300px;
+    }
+    .alert1 {
+        top: 40%;
+        height: 300px;
+    }
+    .layout2-top {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .layout2-top h6 {
+        color: #339820;
+        padding-left: 20%;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .banner-text h1 {
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 10px 0 10px 20%;
+        letter-spacing: 1px;
+    }
+    .kid2 {
+        bottom: -5%;
+    }
+    .layout3-top h1 {
+        font-size: 17px;
+    }
+    .layout3-mid .content-header {
+        width: 100%;
+    }
+    .layout3-mid .content-header .btn {
+        width: 23%;
+        font-size: 9px;
+    }
+}

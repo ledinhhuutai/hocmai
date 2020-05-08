@@ -1,0 +1,382 @@
+body {
+    font-family: Myriad Pro, Regular;
+    font-size: 13px;
+}
+
+header .container { 
+    height: 500px;
+    background-image: url("../images/background-layout1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .row .logo {
+    float: right;
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/* .menu ul {
+    list-style: none;
+}
+.menu ul li a {
+    color : white;
+    font-size: 16px;
+} */
+.navbar {
+    padding: 0 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color : white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.topnav a {
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.topnav .icon {
+    display: none;
+}
+.left1-p1 {
+    margin-top: 20px;
+    float: right;
+    color: white;
+    position: relative;
+}
+.left-layout1 .title {
+    font-size: 20px;
+    color: #ffff00;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.left1-p1 .sub-title {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.left1-p1 small i {
+    display: none;
+}
+
+.left1-p1 button {
+    width: 150px;
+    height: 45px;
+    background-color: #feea31;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 9px 2px -2px #995b08;
+    border: 1px solid #feea31;
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: none;
+}
+
+.icon-left {
+    position: absolute;
+    bottom: 54%;
+    left: -15%;
+    height: 45%;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 54%;
+    height: 22%;
+    right: 5%;
+}
+.right-layout1 {
+    position: relative;
+}
+.form {
+    width: 250px;
+    height: 330px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form h3 {
+    color: #2d3192;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 15px;
+}
+
+.form input {
+    width: 200px;
+    height: 30px;
+    margin: 5px 25px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.form input:focus {
+    outline:none;
+}
+.form ::-webkit-input-placeholder {
+    padding: 7px;
+}
+
+.form button {
+    width: 150px;
+    height: 40px;
+    margin: 10px 50px;
+    background-color: #2d3192;
+    color: white;
+    border: 1px solid #2d3192;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.thumbnail{
+    position: absolute;
+    top: 60px;
+    left: 240px;
+}
+
+.thumbnail img {
+    width: 85%;
+}
+/* END LAYOUT 1 */
+
+/* LAYOUT 2*/
+.layout2 {
+    position: relative;
+    background-image: url("../images/background-layout2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+}
+.layout2 .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.img-center {
+    position: relative;
+}
+.chips {
+    width: 220px;
+    height: 48px;
+    border-radius: 25px;
+    background-color: #c1272d;
+    position: absolute;
+    z-index: -2;
+}
+.chips p {
+    color: white;
+    font-size:10px;
+    padding: 5px 15px;
+}
+.chip1 {
+    top: 52px;
+    left: 31px;
+}
+
+.chip2 {
+    top: 161px;
+    left: -9px;
+}
+.chip3 {
+    top: 267px;
+    left: 31px;
+}
+.chip4 {
+    top: 52px;
+    right: 30px;
+}
+.chip5 {
+    top: 161px;
+    right: -8px;
+}
+.chip6 {
+    top: 267px;
+    right: 30px;
+}
+
+.layout2 .content2 {
+    display: none;
+}
+
+
+/* END LAYOUT 2 */
+
+/* LAYOUT 3 */
+
+.layout3 {
+    background-image: url("../images/background-layout3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.layout3 h1 {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.layout3 .right-img {
+    width: 60%;
+    float: right;
+    padding: 15px 0 20px;
+}
+
+.layout3 .left-img {
+    width: 40%;
+    padding: 15px 0 20px;
+}
+
+.layout3 .news {
+    padding: 20px 0 20px;
+}
+
+.layout3 .sign-up {
+    padding-bottom:  50px;
+}
+.layout3 button {
+    width: 150px;
+    height: 45px;
+    background-color: #feea31;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 0 9px 2px -2px #995b08;
+    border: 1px solid #feea31;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+/* END LAYOUT 3 */
+
+/* LAYOUT 4 */
+.layout4 {
+    position: relative;
+    z-index: -1;
+    background-image: url("../images/background-layout4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout4 .content {
+    width: 250px;
+    background-color: white;
+    margin:20px 10px 20px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: -0 0 10px 5px #dcdcdd;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.layout4 .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0 20px 0;
+    font-weight: bold;
+}
+
+.layout4 .content .sub-title {
+    margin-top: 20px;
+    color: #ec1b24;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.layout4 .discount {
+    text-decoration: line-through;
+}
+
+.layout4 .amount1 b {
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.layout4 .amount2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color:#56bf47;
+}
+
+.layout4 input {
+    width: 70%;
+    background-color: #ed1c24;
+    border: 1px solid #ed1c24;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.layout4 .trangtri1 {
+    position: absolute;
+    height: 45%;
+    bottom: 0px;
+    right: 85%;
+}
+
+.layout4 .tietkiem {
+    position: absolute;
+    width: 20%;
+    top: 0px;
+    right: -25px;
+}
+.layout4 .content2 {
+    margin-top: 10px;
+    position: relative;
+}
+
+.layout4 .trangtri4 {
+    position: absolute;
+    width: 76%;
+    bottom: 0px;
+    z-index: -1;
+    left: 67%;
+}
+
+.layout4 .trangtri2 {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: -35%;
+}
+.layout4 .trangtri3 {
+    position: absolute;
+    width: 45%;
+    bottom: 0;
+    right: -35%;
+}
+
+.layout4 button {
+    width: 170px;
+    margin: 15px 0 15px 0;
+    background-color: #ed1c24;
+    color: white;
+    border: 1px solid #ed1c24;
+    border-radius: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* END LAYOUT 4 */
+
+footer img {
+    width: 100%;
+}

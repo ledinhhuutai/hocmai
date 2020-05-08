@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+header {
+    background-color: #6ad7d4;
+    border: 1px solid black;
+    min-height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60px;
+    background-color: #014d81;
+    width: 50%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.block-header {
+    background: #ffe6c7;
+    width: 60vw;
+    height: 200px;
+    margin: 170px auto 20vh;
+    position: relative
+}
+
+.block-header img {
+    position: absolute;
+}
+
+.text1 {
+    width: 65%;
+    bottom: 75%;
+}
+
+.kid1 {
+    width: 40%;
+    right: -3%;
+    bottom: 60%;
+}
+
+.block-header .object {
+    padding: 50px;
+    color: #ae4c42;
+    font-size: 20px;
+}
+
+.ruler {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.banner-child {
+    width: 70%;
+    background: white;
+    position: absolute;
+    top: 115px;
+    left: 15%;
+    border-radius: 0 0 25px 25px;
+}
+
+.banner-child h1 {
+    text-align: justify;
+    color: #014d81;
+    margin-top: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.banner-child .reason {
+    font-size: 15px;
+    color: black;
+    padding-left: 1vw;
+    margin-bottom: 0;
+}
+
+.banner-child .button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.banner-child .button1 {
+    background-color: #014d81;
+    color: white;
+    margin-left: 130px;
+}
+
+.banner-child .button2 {
+    background-color: #ff5461;
+    color: white;
+}
+
+
+/* Main-Layout1 */
+
+.layout1-top {
+    min-height: 150px;
+    border: 1px dotted red;
+    position: relative;
+}
+
+.layout1-top img {
+    top: -30%;
+    left: 20%;
+    width: 60vw;
+    position: absolute;
+}
+
+.layout1-top p {
+    position: absolute;
+    color: #e975a9;
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 70%;
+    left: 33%;
+    font-size: 18px;
+}
+
+
+/* End-Main-Layout1 */
